@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 4293597045289741889}
   - component: {fileID: 2291958890665383403}
   - component: {fileID: -8393154405463857320}
-  m_Layer: 0
+  - component: {fileID: 6504649774966305733}
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,4 +171,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PathFollower
   rb: {fileID: 4293597045289741889}
-  movespeed: 8
+  movespeed: 2
+--- !u!114 &6504649774966305733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8630196806925233639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094906408f329cc43b7e6c0f0abf8a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
